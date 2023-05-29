@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button><a href="portfolio.html">Retour</a></button>
+    <div class="contact" id="contact">
+            <form action="envoyer_mail.php" method="post">
+                <h2>Formulaire de contact</h2>
+                <label for="email"></label>
+                <input type="email" id="email" name="email" placeholder="e-mail" required><br>
+    
+                <label for="objet"></label>
+                <input type="text" id="objet" name="objet" placeholder="objet" required><br>
+    
+                <label for="message"></label>
+                <textarea id="message" name="message" rows="4" cols="50" placeholder="message" required></textarea><br>
+    
+                <input type="submit" value="Envoyer">
+            </form>
+        </div>
+</body>
+</html>
